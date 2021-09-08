@@ -1,0 +1,41 @@
+.card {
+  margin: 1rem auto;
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+section.success {
+  height: 2rem;
+  background: yellowgreen;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.pending {
+  height: 2rem;
+  background: rgb(18, 26, 4);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.error {
+  height: 2rem;
+  background: rgb(143, 17, 44);
+  display: flex;
+  justify-content: space-evenly;
+}
+section.nothing {
+  height: 2rem;
+  background: rgb(50, 59, 31);
+}
+h2.heading {
+  position: relative;
+  bottom: 1rem;
+}
+
+p.para {
+  position: relative;
+  bottom: 0.3rem;
+}
